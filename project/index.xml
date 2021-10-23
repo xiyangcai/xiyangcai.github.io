@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | Xiyang Cai</title><link>https://xiyangcai.github.io/project/</link><atom:link href="https://xiyangcai.github.io/project/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate><image><url>https://xiyangcai.github.io/media/icon_hu6abccaf761580ee46e2c4555290a747e_18873_512x512_fill_lanczos_center_3.png</url><title>Projects</title><link>https://xiyangcai.github.io/project/</link></image><item><title>Research on Bayesian nonparametric deep learning method</title><link>https://xiyangcai.github.io/project/dgp/</link><pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate><guid>https://xiyangcai.github.io/project/dgp/</guid><description>&lt;ul>
+&lt;li>
+&lt;p>Presented a Bayesian nonparametric deep learning method called deep graph random process (DGP) that can generate an infinite number of probabilistic graphs representing percepts.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Applied the presented DGP for physiological time-series classification, which are able to capture the relation between different channels in the multivariate signals.&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Researches on Sleep Staging based on Multivariate Multimodal Signals</title><link>https://xiyangcai.github.io/project/sleep-mm/</link><pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate><guid>https://xiyangcai.github.io/project/sleep-mm/</guid><description>&lt;h2 id="brainsleepnet-learning-multivariate-eeg-representation-for-automatic-sleep-staging">BrainSleepNet: Learning Multivariate EEG Representation for Automatic Sleep Staging&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="BrainSleepNet" srcset="
+/media/brainsleepnet_hu83ae38bc49a188d43fc2804c7ac3d198_249853_7224b76d04cc15989230109a573fb1a1.png 400w,
+/media/brainsleepnet_hu83ae38bc49a188d43fc2804c7ac3d198_249853_fafd98b22c8e189e4d9a7959734d7bb8.png 760w,
+/media/brainsleepnet_hu83ae38bc49a188d43fc2804c7ac3d198_249853_1200x1200_fit_lanczos_3.png 1200w"
+src="https://xiyangcai.github.io/media/brainsleepnet_hu83ae38bc49a188d43fc2804c7ac3d198_249853_7224b76d04cc15989230109a573fb1a1.png"
+width="760"
+height="238"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Designed a method for constructing temporal-spectral-spatial representation of EEG signals for describing different sleep stages from different perspectives&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Fused the time-domain, frequency-domain, and spatial-domain features of EEG signals simultaneously in a unified network for learning comprehensive features of multivariate signals.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Published a co-first-authored paper on &lt;em>2020 IEEE International Conference on Bioinformatics and Biomedicine&lt;/em>.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="sleepprintnet-a-multivariate-multimodal-neural-network-based-on-physiological-time-series-for-automatic-sleep-staging">SleepPrintNet: A Multivariate Multimodal Neural Network Based on Physiological Time-Series for Automatic Sleep Staging&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="SleepPrintNet" srcset="
+/media/sleepprintnet_hue74e410e01829c17c02ed81befafba54_234651_b718d01f35d2dda7ed9dbfc42b812f04.png 400w,
+/media/sleepprintnet_hue74e410e01829c17c02ed81befafba54_234651_f6a51bf4ce3e8d29c29fbe221d040bd1.png 760w,
+/media/sleepprintnet_hue74e410e01829c17c02ed81befafba54_234651_1200x1200_fit_lanczos_3.png 1200w"
+src="https://xiyangcai.github.io/media/sleepprintnet_hue74e410e01829c17c02ed81befafba54_234651_b718d01f35d2dda7ed9dbfc42b812f04.png"
+width="760"
+height="406"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;ul>
+&lt;li>Introduced multimodal signals including EOG and EMG in addition to EEG for sleep staging.&lt;/li>
+&lt;li>Developed modal-independent signal processing components for capturing discriminative features from each modality.&lt;/li>
+&lt;li>Published a co-first-authored paper on &lt;em>IEEE Transactions on Artificial Intelligence&lt;/em>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="multi-modal-physiological-signals-based-two-stream-squeeze-and-excitation-network-for-sleep-staging">Multi-modal Physiological Signals based Two-Stream Squeeze-and-Excitation Network for Sleep Staging&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="TS-SEN" srcset="
+/media/se_hu89e43a8558cf75ea407facb3092d0867_453036_026d3499828ead3f661b7d4b1a224610.png 400w,
+/media/se_hu89e43a8558cf75ea407facb3092d0867_453036_5ccfa04267679e562c7a1f50946b0924.png 760w,
+/media/se_hu89e43a8558cf75ea407facb3092d0867_453036_1200x1200_fit_lanczos_3.png 1200w"
+src="https://xiyangcai.github.io/media/se_hu89e43a8558cf75ea407facb3092d0867_453036_026d3499828ead3f661b7d4b1a224610.png"
+width="760"
+height="405"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;ul>
+&lt;li>Captured the heterogeneity of EEG and EOG signals by the multi-modal physiological signals representation and independent feature extraction networks.&lt;/li>
+&lt;li>Adaptively utilized the features of EEG and EOG signals by a multi-modal Squeeze-and-Excitation feature fusion module for classification.&lt;/li>
+&lt;li>Submitted a first-authored paper to &lt;em>IEEE Sensors Journal&lt;/em> (in minor revision).&lt;/li>
+&lt;/ul></description></item><item><title>Research on Sleep Staging based on Graph Neural Network</title><link>https://xiyangcai.github.io/project/hgpnn/</link><pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate><guid>https://xiyangcai.github.io/project/hgpnn/</guid><description>&lt;ul>
+&lt;li>
+&lt;p>Proposed a novel Heterogeneous Graph Pooling Neural Network (HGPNN) for sleep staging task, which takes a set of physiological signals called polysomnogram (PSG) as input, and outputs the sleep stages.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Constructed the sleep heterogeneous graph, where each node represents a channel in PSG and type of node represents modality in PSG, including EEG, EOG, and EMG.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Applied the Heterogeneous Graph Transformer (HGT) module for fully exploiting the typical natures of multimodal signals including heterogeneity and interactivity.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Proposed a novel HetPool layer, which can effectively capture the local-to-global features by gradually coarsening the sleep heterogeneous graph.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Experimental results demonstrate that the proposed HGPNN outperforms the state-of-the-art models on the benchmark datasets ISRUC-1 by 1.35% on F1-Score.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Rated as a &lt;strong>national-level&lt;/strong> project in the &lt;em>2020 University Student Innovation and Entrepreneurship Training Program, Beijing Jiaotong University&lt;/em>.&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Research on Emotion Recognition based on EEG Signal</title><link>https://xiyangcai.github.io/project/emotion/</link><pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate><guid>https://xiyangcai.github.io/project/emotion/</guid><description>&lt;ul>
+&lt;li>Proposed a two-stream 3D Dense network, which fuses the spatial-spectral-temporal information of EEG signals in a unified network framework based on the constructed 3D EEG representation.&lt;/li>
+&lt;li>Developed a parallel Spatial-Spectral/Temporal attention mechanism to adaptively capture discriminative patterns in brain regions, frequency bands and time stamps.&lt;/li>
+&lt;li>Conducted extensive experiments on two benchmark datasets and the experimental results show that our SST-EmotionNet outperforms the state-of-the-art model by 1.78% on accuracy.&lt;/li>
+&lt;li>Rated as a &lt;strong>national-level&lt;/strong> project in the &lt;em>2019 University Student Innovation and Entrepreneurship Training Program, Beijing Jiaotong University&lt;/em>.&lt;/li>
+&lt;li>Published a paper on &lt;em>28th ACM International Conference on Multimedia&lt;/em>.&lt;/li>
+&lt;/ul></description></item></channel></rss>
