@@ -67,25 +67,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;li>Captured the heterogeneity of EEG and EOG signals by the multi-modal physiological signals representation and independent feature extraction networks.&lt;/li>
 &lt;li>Adaptively utilized the features of EEG and EOG signals by a multi-modal Squeeze-and-Excitation feature fusion module for classification.&lt;/li>
 &lt;li>Submitted a first-authored paper to &lt;em>IEEE Sensors Journal&lt;/em> (in minor revision).&lt;/li>
-&lt;/ul></description></item><item><title>Research on Sleep Staging based on Graph Neural Network</title><link>https://xiyangcai.github.io/project/hgpnn/</link><pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate><guid>https://xiyangcai.github.io/project/hgpnn/</guid><description>&lt;ul>
-&lt;li>
-&lt;p>Proposed a novel Heterogeneous Graph Pooling Neural Network (HGPNN) for sleep staging task, which takes a set of physiological signals called polysomnogram (PSG) as input, and outputs the sleep stages.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Constructed the sleep heterogeneous graph, where each node represents a channel in PSG and type of node represents modality in PSG, including EEG, EOG, and EMG.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Applied the Heterogeneous Graph Transformer (HGT) module for fully exploiting the typical natures of multimodal signals including heterogeneity and interactivity.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Proposed a novel HetPool layer, which can effectively capture the local-to-global features by gradually coarsening the sleep heterogeneous graph.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Experimental results demonstrate that the proposed HGPNN outperforms the state-of-the-art models on the benchmark datasets ISRUC-1 by 1.35% on F1-Score.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Rated as a &lt;strong>national-level&lt;/strong> project in the &lt;em>2020 University Student Innovation and Entrepreneurship Training Program, Beijing Jiaotong University&lt;/em>.&lt;/p>
-&lt;/li>
 &lt;/ul></description></item><item><title>Research on Emotion Recognition based on EEG Signal</title><link>https://xiyangcai.github.io/project/emotion/</link><pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate><guid>https://xiyangcai.github.io/project/emotion/</guid><description>&lt;ul>
 &lt;li>Proposed a two-stream 3D Dense network, which fuses the spatial-spectral-temporal information of EEG signals in a unified network framework based on the constructed 3D EEG representation.&lt;/li>
 &lt;li>Developed a parallel Spatial-Spectral/Temporal attention mechanism to adaptively capture discriminative patterns in brain regions, frequency bands and time stamps.&lt;/li>
